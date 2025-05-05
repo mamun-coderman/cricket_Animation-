@@ -1,1 +1,84 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #e0ffe0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Field (round green area) */
+.field {
+  width: 80vmin;
+  height: 80vmin;
+  background-color: #b6e2a1;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Pitch in the center */
+.pitch {
+  width: 10%;
+  height: 50%;
+  background-color: #d2b48c;
+  border: 2px solid #8b5e3c;
+  border-radius: 5px;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+
+/* Bat */
+.bat {
+  width: 8px;
+  height: 50px;
+  background-color: #8b5e3c;
+  position: absolute;
+  bottom: 20%;
+  left: 47%;
+  transform-origin: bottom;
+  animation: swing 2s ease-in-out forwards;
+}
+
+/* Ball */
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20%;
+  left: 48%;
+  animation: six 2s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* Bat swing animation */
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  30% { transform: rotate(-45deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Ball flying like a six */
+@keyframes six {
+  0% {
+    bottom: 20%;
+    left: 48%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 110%;
+    left: 90%;
+    opacity: 0;
+  }
+}
