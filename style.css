@@ -43,7 +43,7 @@ body, html {
   height: 100px;
   position: absolute;
   bottom: 20%;
-  left: 48%;
+  left: 50%;
   transform-origin: bottom;
   animation: swing 2s ease-in-out forwards;
 }
@@ -55,7 +55,7 @@ body, html {
   background-color: red;
   border-radius: 50%;
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   left: 48%;
   animation: six 2s ease-in-out forwards;
   animation-delay: 0.3s;
