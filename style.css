@@ -39,6 +39,8 @@ body, html {
 
 /* Bat */
 .bat > img{
+  width: 10px;
+  height: 50px;
   position: absolute;
   bottom: 20%;
   left: 47%;
