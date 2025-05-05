@@ -42,8 +42,8 @@ body, html {
   width: 50px;
   height: 100px;
   position: absolute;
-  bottom: 25%;
-  left: 50%;
+  bottom: 20%;
+  left: 48%;
   transform-origin: bottom;
   animation: swing 2s ease-in-out forwards;
 }
