@@ -19,7 +19,7 @@ body, html {
   width: 80vmin;
   height: 80vmin;
   background-color: #b6e2a1;
-  border-radius: 40%;
+  border-radius: 45%;
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
