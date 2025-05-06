@@ -27,8 +27,8 @@ body, html {
 
 /* Pitch in the center */
 .pitch {
-  width: 10%;
-  height: 50%;
+  width: 50%;
+  height: 10%;
   background-color: #d2b48c;
   border: 2px solid #8b5e3c;
   border-radius: 5px;
